@@ -1,0 +1,49 @@
+.content-container {
+    padding: 50px 0px 0px 0px;
+}
+
+/* Cards */
+.vitalycare-card {
+    border: 1px solid #002942;
+    border-radius: 10px 10px 10px 0px;
+    text-align: center;
+    width: 320px;
+    padding: 30px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    gap: 20px !important;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    z-index: 5555;
+    height: 412px !important;
+}
+
+.vitalycare-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vitalycare-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.vitalycare-card h3 {
+    font-size: 18px;
+    color: #003366;
+    margin: 10px 0;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.vitalycare-card a {
+    font-size: 15px;
+    color: #003366;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

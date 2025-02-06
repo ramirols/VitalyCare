@@ -1,0 +1,35 @@
+.vitalycare-servicios-banner {
+    background-image: url(../assets/banner-servicios.webp);
+    height: 450px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.vitalycare-servicios-title {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.vitalycare-servicios-carousel{
+    display:flex;
+   flex-wrap: wrap;
+   gap: 20px;/*separación-mas facil*/
+}
+
+.servicios-call-to-aption-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.servicios-call-to-aption-content a{
+    font-weight: 700;
+    background-color: #19C887;
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}

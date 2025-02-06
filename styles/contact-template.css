@@ -1,0 +1,49 @@
+.vitalycare-contact-template-container {
+    background: #3ca5f7;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+}
+
+.vitalycare-contact-template-item {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.vitalycare-contact-template-item-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.vitalycare-contact-template-container-content {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.vitalycare-contact-template-item i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.vitalycare-contact-template-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.vitalycare-contact-template-item p {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+.vitalycare-contact-template-divider {
+    height: 80px;
+    width: 6px;
+    background: rgba(255, 255, 255, 0.6);
+}

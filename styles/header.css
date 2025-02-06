@@ -1,0 +1,60 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+    height: 60px;
+    background-color: white;
+    transition: all .3s ease;
+}
+
+header .vitalycare-header-logo h1 {
+    transition: transform .3s ease-in-out;
+}
+
+header .vitalycare-header-logo h1:hover {
+    transform: scale(1.1);
+    color: #19C887;
+}
+
+header .vitalycare-header-container {
+    height: 100%;
+}
+
+header .vitalycare-header-container ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+header .vitalycare-header-container ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+header .vitalycare-header-container ul li a:hover {
+    color: #19C887;
+}
+
+header .vitalycare-header-container .vitalycare-header-login-and-register {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+header .vitalycare-header-container .vitalycare-header-login-and-register .vitalycare-header-login-btn {
+    background-color: #19C887;
+    color: white;
+    border-radius: 4px;
+    padding: 12px 24px;
+}
+
+header .vitalycare-header-container .vitalycare-header-login-and-register .vitalycare-header-register-btn {
+    background-color: #002942;
+    color: white;
+    border-radius: 4px;
+    padding: 12px 24px;
+}

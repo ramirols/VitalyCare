@@ -1,0 +1,199 @@
+.vitalycare-about-section .vitalycare-about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vitalycare-about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.vitalycare-about-container .vitalycare-about-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.vitalycare-about-container .vitalycare-about-image {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.vitalycare-about-container .vitalycare-about-btn-container {
+    margin-top: 1rem;
+}
+
+.vitalycare-about-call-to-action-container {
+    background-color: #36A4E8;
+    border-radius: 15px 15px 15px 0px;
+    padding: 40px;
+}
+
+.vitalycare-about-call-to-action-container .vitalycare-call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vitalycare-about-call-to-action-container .vitalycare-call-to-action-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.vitalycare-about-call-to-action-container .vitalycare-call-to-action-content h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.vitalycare-about-call-to-action-container .vitalycare-call-to-action-content p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.vitalycare-about-call-to-action-container .vitalycare-call-to-action-btn-container {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.vitalycare-about-call-to-action-container .vitalycare-call-to-action-btn-container a {
+    background-color: white;
+    font-weight: 600;
+    color: #36A4E8;
+    border-radius: 4px;
+    padding: 12px 24px;
+}
+
+/* Por qué elegirnos sección */
+.vitalycare-why-choose-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #EAF8F1;
+    padding: 20px;
+    height: 380px;
+
+}
+
+.vitalycare-why-choose-us-container-wrapper {
+    margin: 8rem 0rem 1.5rem 0px;
+}
+
+.vitalycare-why-choose-us-image-container {
+    flex: 1;
+    width: 50%;
+    text-align: center;
+}
+
+.vitalycare-why-choose-us-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.vitalycare-why-choose-us-content-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    margin-top: -7rem;
+}
+
+.vitalycare-why-choose-us-content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    width: 50%;
+    align-items: center;
+    height: 250px;
+}
+
+.vitalycare-why-choose-us-item {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    gap: 0.8rem;
+}
+
+.vitalycare-why-choose-us-item p {
+    font-size: 18px;
+    color: #002942;
+    font-weight: 400;
+}
+
+.vitalycare-why-choose-us-item i {
+    color: #19C887;
+    font-size: 30px;
+}
+
+.vitalycare-why-choose-us-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-color: #00C853;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+/* Sección de Especialidades */
+.vitalycare-specialties-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.vitalycare-specialties-item {
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.vitalycare-specialties-item h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.vitalycare-specialties-item img {
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    .vitalycare-why-choose-us-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .vitalycare-why-choose-us-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .vitalycare-why-choose-us-item {
+        width: 100%;
+    }
+}

@@ -1,0 +1,156 @@
+/* Header */
+@import './styles/header.css';
+
+/* Footer */
+@import './styles/footer.css';
+
+/* Slider */
+@import './styles/slider.css';
+
+/* Template de Contacto */
+@import './styles/contact-template.css';
+
+/* Carousel */
+@import './styles/carousel.css';
+
+/* Estilos de Inicio */
+@import './styles/inicio.css';
+
+/* Estilos de Servicios */
+@import './styles/servicios.css';
+
+/* Estilos de Sobre Nosotros */
+@import './styles/sobre-nosotros.css';
+
+/* Estilos de Contacto */
+@import './styles/contactanos.css';
+
+/* Estilos iniciales */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.1;
+    color: #002942;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1;
+}
+
+span {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1;
+}
+
+button {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1;
+}
+
+a {
+    text-decoration: none;
+    color: #002942;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    padding: 50px 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Clases generales */
+.vitalycare-btn {
+    background-color: #19C887;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn {
+    transition: transform .3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* Contenedor de Header */
+.vitalycare-header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Contenedor de Footer */
+.vitalycare-container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsividad */
+@media only screen and (max-width: 920px) and (min-width: 320px) {
+    .vitalycare-header-container {
+        flex-direction: column;
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .container {
+        padding: 0 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .vitalycare-contact-template-container {
+        flex-direction: column;
+        clip-path: none;
+        padding: 30px;
+    }
+
+    .vitalycare-contact-template-divider {
+        width: 60%;
+        height: 2px;
+        margin: 15px 0;
+    }
+}

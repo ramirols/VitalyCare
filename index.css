@@ -25,6 +25,12 @@
 /* Estilos de Contacto */
 @import './styles/contactanos.css';
 
+/* Estilos de Login */
+@import './styles/login.css';
+
+/* Estilos de Registro */
+@import './styles/registro.css';
+
 /* Estilos iniciales */
 * {
     padding: 0;
@@ -50,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-weight: 400;
     font-size: 1rem;
-    line-height: 1.1;
+    line-height: 1.5;
 }
 
 span {
@@ -92,6 +98,12 @@ section {
     margin: 0 auto;
 }
 
+/* Validaciones de error en formulario */
+.just-validate-error-label {
+    margin-top: 1rem !important;
+    color: red !important;
+}
+
 /* Clases generales */
 .vitalycare-btn {
     background-color: #19C887;
@@ -100,6 +112,13 @@ section {
     border-radius: 5px;
     font-size: 15px;
     font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.vitalycare-btn:hover {
+    background-color: #16B077;
 }
 
 .btn {

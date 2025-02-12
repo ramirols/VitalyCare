@@ -13,10 +13,13 @@
     font-size: 50px;
     text-transform: uppercase;
 }
-.vitalycare-servicios-carousel{
-    display:flex;
-   flex-wrap: wrap;
-   gap: 20px;/*separación-mas facil*/
+
+.vitalycare-servicios-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /*separación-mas facil*/
 }
 
 .servicios-call-to-aption-content {
@@ -26,7 +29,8 @@
     align-items: center;
     gap: 20px;
 }
-.servicios-call-to-aption-content a{
+
+.servicios-call-to-aption-content a {
     font-weight: 700;
     background-color: #19C887;
     border-radius: 4px 4px 4px 4px;

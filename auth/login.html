@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../index.css">
+
+    <title>VitalyCare - Login</title>
+</head>
+
+<body>
+    <main>
+        <div class="vitalycare-login-page-container">
+            <div>
+                <a href="../pages/index.html">
+                    <h2 class="vitalycare-logo">VitalyCare</h2>
+                </a>
+            </div>
+            <div class="vitalycare-login-container">
+                <h2>Iniciar Sesión</h2>
+                <form id="vitalycare-login-form">
+                    <input type="text" class="vitalycare-login-username" placeholder="Usuario">
+                    <input type="password" class="vitalycare-login-password" placeholder="Contraseña"
+                        autocomplete="current-password">
+                    <button type="submit" class="vitalycare-btn">Ingresar</button>
+                </form>
+                <div class="vitalycare-login-register">
+                    <p>¿No tienes una cuenta? <a href="../auth/registro.html">Registrate</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- JustValidate -->
+    <script src="https://cdn.jsdelivr.net/npm/just-validate@4.2.0/dist/just-validate.production.min.js"></script>
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Carga de Scripts -->
+    <script src="../js/scripts.js"></script>
+</body>
+
+</html>

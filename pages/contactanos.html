@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
@@ -15,17 +16,61 @@
 
     <title>Contáctanos - VitalyCare</title>
 </head>
+
 <body>
     <header id="header"></header>
-    
+
+    <div class="vitalycare-contactanos-banner">
+        <h1 class="vitalycare-contactanos-tittle">Contáctanos</h1>
+    </div>
+
     <main>
         <div class="container">
-            <!-- Aquí deberán agregar el contenido de la página -->
-            <h1>AGREGAR CONTENIDO PENDIENTE</h1>
-            <h1>AGREGAR CONTENIDO PENDIENTE</h1>
-            <h1>AGREGAR CONTENIDO PENDIENTE</h1>
-            <h1>AGREGAR CONTENIDO PENDIENTE</h1>
-            <h1>AGREGAR CONTENIDO PENDIENTE</h1>
+            <div class="vitalycare-contactanos-container">
+                <div class="vitalycare-contactanos-image-container">
+                    <img src="../assets/contactanos-img.webp" class="vitalycare-contactanos-image-container-img">
+                    <div class="vitalycare-contactanos-text-box">
+                        <p>Esperamos poder ser parte importante de su empresa y demostrar nuestra experiencia.
+                            Si necesita que nos comuniquemos con ustedes, complete el siguiente formulario:</p>
+                    </div>
+                </div>
+                <br><br>
+                <div class="vitalycare-contactanos-form-container">
+                    <form>
+                        <label class="vitalycare-contactanos-label" for="servicio">Servicio</label>
+                        <select class="vitalycare-contactanos-select" id="servicio">
+                            <option>Exámenes médicos ocupacionales</option>
+                            <option>Monitoreos ocupacionales</option>
+                            <option>Capacitaciones</option>
+                            <option>Exámenes de laboratorio</option>
+                            <option>Rayos X</option>
+                            <option>Consultas Médicas</option>
+                        </select>
+
+                        <div class="vitalycare-contactanos-name-container">
+                            <div class="vitalycare-contactanos-name-container-div">
+                                <label class="vitalycare-contactanos-label" for="nombres">Nombres</label>
+                                <input class="vitalycare-contactanos-input" type="text" id="nombres">
+                            </div>
+                            <div>
+                                <label class="vitalycare-contactanos-label" for="apellidos">Apellidos</label>
+                                <input class="vitalycare-contactanos-input" type="text" id="apellidos">
+                            </div>
+                        </div>
+
+                        <label class="vitalycare-contactanos-label" for="telefono">Número de Teléfono</label>
+                        <input class="vitalycare-contactanos-input" type="tel" id="telefono">
+
+                        <label class="vitalycare-contactanos-label" for="correo">Correo Electrónico</label>
+                        <input class="vitalycare-contactanos-input" type="email" id="correo">
+
+                        <label class="vitalycare-contactanos-label" for="mensaje">Mensaje</label>
+                        <textarea class="vitalycare-contactanos-textarea" id="mensaje" rows="4"></textarea>
+
+                        <button class="vitalycare-contactanos-button" type="submit" id="contactoEnviar">SOLICITAR COTIZACIÓN</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </main>
     <div id="contact-template"></div>
@@ -35,4 +80,5 @@
     <!-- Carga de Scripts -->
     <script src="../js/scripts.js"></script>
 </body>
+
 </html>
